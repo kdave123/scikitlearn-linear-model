@@ -15,7 +15,7 @@ y_train = [[24],[5],[3],[15],[5],[16],[4],[9],[14],[10],[11],[18],[8],[1]]
 
 x_test = numpy.array([[1],[2],[3]])                                   # input_variables_values_test_datasets
 
-
+#already done, change shape for 1-d array
 # x_train = x_train.reshape(1, -1)
 # y_train = y_train.reshape(1, -1)
 # x_test = x_test.reshape(1, -1)
@@ -30,6 +30,6 @@ print('Coefficient: \n', linear.coef_)
 print('Intercept: \n', linear.intercept_)
 # Predict Output
 predicted = linear.predict(x_test)
-print("Predict your Future")
+print("Predict")
 # seperator not working
 print(predicted, sep=", ")
